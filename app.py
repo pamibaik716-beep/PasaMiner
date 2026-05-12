@@ -586,9 +586,9 @@ def claim():
     now = time.time()
 
     # cooldown 30 detik
-    if now - user["last_claim"] < 30:
+    if now - user["last_claim"] < 15:
 
-        return "Tunggu 30 detik"
+        return "Tunggu 15 detik"
 
     users.update_one(
         {"username": session["user"]},
@@ -622,7 +622,7 @@ def watchads():
 
     if now - user.get("last_ads", 0) < 15:
 
-        return "Tunggu 60 detik"
+        return "Tunggu 15 detik"
 
     users.update_one(
         {"username": session["user"]},
