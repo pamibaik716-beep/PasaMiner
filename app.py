@@ -44,7 +44,7 @@ withdraws = db["withdraws"]
 ADS_LINK = "https://www.profitablecpmratenetwork.com/f76dmpngae?key=edb1a0763db2101358b5ab3a74a3ca24"
 
 ADSTERRA_SCRIPT = """
-<script src="https://pl29422289.profitablecpmratenetwork.com/cd/89/9b/cd899b6c6eb0a17bd6a09930a0311ea5.js"></script>
+<script type="text/javascript" src="https://pl29422289.profitablecpmratenetwork.com/cd/89/9b/cd899b6c6eb0a17bd6a09930a0311ea5.js"></script>
 """
 
 # =========================================
