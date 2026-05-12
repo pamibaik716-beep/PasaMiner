@@ -620,7 +620,7 @@ def watchads():
 
     now = time.time()
 
-    if now - user.get("last_ads", 0) < 60:
+    if now - user.get("last_ads", 0) < 15:
 
         return "Tunggu 60 detik"
 
