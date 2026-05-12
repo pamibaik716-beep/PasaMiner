@@ -586,7 +586,7 @@ def claim():
     now = time.time()
 
     # cooldown 30 detik
-    if now - user["last_claim"] < 15:
+    if now - user.get("last_ads", 0) < 15:
 
         return "Tunggu 15 detik"
 
